@@ -4,5 +4,57 @@
 
 .todo-wrapper {
   margin: 0 auto;
-  width: 92%;
+  width: 80%;
+}
+
+.todo-input-wrapper {
+  margin-bottom: 20px;
+}
+
+.btn {
+  outline: none;
+  box-shadow: none;
+  border-style: solid;
+}
+
+.btn-primary {
+  text-align: center;
+  font-size: 2em;
+  width: 1.4em;
+  border-radius: 33px;
+  background-color: #313464;
+  color: white;
+  border-color: #313464;
+}
+
+input {
+  font-size: 1.8em;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  width: 70%;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #FFFFFF;
+}
+
+input:focus {
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border-bottom: 1px solid #575757;
+}
+
+.item_header {
+  background-color: #0E1D3C;
+  margin: 0 -5% 0 -5%;
+}
+
+h1 {
+  font-size: 2em;
+  padding: 40px 0 40px 0;
+  margin-top: -10px;
+  color: white;
 }
